@@ -1,0 +1,14 @@
+{
+  "name": "Role Mention Exporter",
+  "description": "Adds a server long-press action that copies every cached member with a selected role as Discord mentions.",
+  "authors": [
+    {
+      "name": "Stef",
+      "id": "741766613254012928"
+    }
+  ],
+  "main": "src/index.ts",
+  "vendetta": {
+    "icon": "CopyIcon"
+  }
+}
