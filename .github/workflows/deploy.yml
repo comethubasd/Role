@@ -1,3 +1,4 @@
+
 name: Build and Deploy Plugin
 
 on:
@@ -31,7 +32,7 @@ jobs:
       - name: Prepare Pages
         run: |
           mkdir -p public
-          cp -r plugins/* public/
+          cp -r dist/* public/
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
